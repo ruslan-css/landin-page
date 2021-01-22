@@ -1,0 +1,1256 @@
+/*Good afternoon,
+I am looking for an internship or an experienced mentor who will help to further study the frontend.
+About myself:
+I graduated from the front-end courses, but without practice I can forget everything, but I have a great desire to continue learning. Basic knowledge
+Of the minuses, I don't speak English, but I also want to learn it!
+
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  position: relative;
+width: 100%;
+background: #CCCCCC;
+
+}
+
+a{
+  text-decoration: none;
+}
+.rectangle{
+width: 1440px;
+height: 726px;
+background:url('../img/Rectangle.png');
+background-repeat: no-repeat;
+ position: relative;
+color: #C4C4C4;
+
+}
+.rectangle, .content{
+  margin-left: 2%;
+}
+nav{
+  position: relative;
+width: 1128px;
+height: 24px;
+bottom: -30px;
+left:  150px;
+}
+
+
+#top-menu, img  {
+  vertical-align: baseline;
+}
+
+
+.logo{
+  position: relative;
+width: 99px;
+height: 22px;
+
+font-family: Roboto;
+font-style: normal;
+left:20px;
+top: 7px;
+color: #FFFFFF;
+}
+.components{
+  position: relative;
+  width: 81px;
+  height: 15px;
+left: 700px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+  color: #FFFFFF;
+  top: 7px;
+}
+.download{
+position: relative;
+  width: 66px;
+  height: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+
+top:7px;
+left: 730px;
+  color: #FFFFFF;
+}
+.dowload-icon{
+  position: relative;
+  width: 18px;
+  height: 18px;
+  left: -2px;
+top:5px;
+
+  /*margin-right: 6px;*/
+}
+.twitter{
+  position: relative;
+  width: 19px;
+  height: 20px;
+top: 10px;
+  font-family: FontAwesome;
+  left:770px;
+  color: #FFFFFF;
+}
+.facebook{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top:10px;
+  font-family: FontAwesome;
+  left:785px;
+  color: #FFFFFF;
+}
+.instagram{
+  position: relative;
+width: 18px;
+height: 20px;
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+left: 800px;
+bottom: -10px;
+color: #FFFFFF;
+
+
+}
+.header{
+  position: relative;
+  width: 549px;
+  height: 304px;
+top:200px;
+left: 160px;
+}
+h2{
+  position: relative;
+width: 530px;
+height: 125px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 53.2px;
+line-height: 44px;
+left: 2px;
+margin-top: 10px;
+color: #FFFFFF;
+
+}
+h4{
+position: relative;
+width: 549px;
+height: 72px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 19.3px;
+line-height: 21px;
+left:2px;
+bottom: 50px;
+color: #FFFFFF;
+}
+button{
+  position: relative;
+width: 179px;
+height: 54px;
+background-color: red;
+bottom: 30px;
+}
+.play{
+position: relative;
+width: 15px;
+height: 18px;
+
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 18px;
+left: -40px;
+top: 12px;
+color: #FFFFFF;
+}
+h3{
+position: relative;
+width: 91px;
+height: 17px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+left:50px;
+bottom: 20px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.content{
+  position: relative;
+width: 1380px;
+height: 2045px;
+background-color: white;
+bottom: 60px;
+left:25px;
+}
+.news{
+position: relative;
+width: 277px;
+height: 43px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 43px;
+margin-left: 550px;
+top: 95px;
+/* identical to box height */
+color: #3C4858;
+}
+.news1{
+  position: relative;
+width: 723px;
+height: 70px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 20px;
+text-align: center;
+left: 300px;
+top: 60px;
+color: #999999;
+}
+.FIRST-FEATURE{
+  position: relative;
+width: 328px;
+height: 201px;
+left: 130px;
+top: 161px;
+}
+.ICONFF{
+
+position: relative;
+width: 70px;
+height: 70px;
+left: 125px;
+
+}
+.FF{
+  position: relative;
+width: 113px;
+height: 24px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+left:105px;
+text-align: center;
+
+color: #3C4858;
+}
+.FF1{
+  position: relative;
+width: 328px;
+height: 58px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+
+color: #999999;
+}
+.SECOND-FEATURE{
+  position: relative;
+width: 328px;
+height: 201px;
+left:525px;
+bottom: 40px;
+}
+.ICONSF{
+  position: relative;
+width: 70px;
+height: 70px;
+left: 120px;
+}
+.SF{
+  position: relative;
+width: 140px;
+height: 24px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+left: 80px;
+text-align: center;
+
+color: #3C4858;
+}
+.SF1{
+  position: relative;
+width: 328px;
+height: 58px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+
+color: #999999;
+}
+.Third-Feature{
+  position: relative;
+  width: 328px;
+  height: 201px;
+  left: 900px;
+  bottom: 240px;
+}
+.ICONTF{
+  position: relative;
+
+  width: 70px;
+  height: 70px;
+  left:120px;
+}
+.TF{
+
+position: relative;
+width: 120px;
+height: 24px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: center;
+left:90px;
+color: #3C4858;
+}
+.TF1{
+  position: relative;
+width: 328px;
+height: 58px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+
+color: #999999;
+}
+.TEAM{
+  position: relative;
+width: 1133px;
+height: 541px;
+bottom: 130px;
+left: 122px;
+}
+h1{
+
+position: absolute;
+width: 268px;
+height: 43px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36.4px;
+line-height: 43px;
+/* identical to box height */
+left: 420px;
+
+color: #3C4858;
+}
+.block1{
+  position: relative;
+width: 352px;
+height: 412px;
+left:  -5px;
+top: 140px;
+}
+.AVATAR{
+  position: relative;
+  width: 170px;
+  height: 170px;
+left: 90px;
+top:40px;
+}
+.name{
+  position: relative;
+width: 85px;
+height: 22px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18.2px;
+line-height: 21px;
+left: 130px;
+color: #3C4858;
+}
+.job{
+  position: relative;
+width: 39px;
+height: 16px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 13.65px;
+line-height: 16px;
+left: 150px;
+color: #777777;
+}
+.text{
+  position: relative;
+width: 352px;
+height: 95px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+left:5px;
+color: #999999;
+}
+
+.facebook1{
+  width: 16px;
+  height: 18px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  bottom: 1px;
+  margin-left: 160px;
+  color: #999999;
+}
+.twitter1 {
+  position: relative;
+width: 17px;
+height: 18px;
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #999999;
+bottom: 1px;
+left: 120px;
+}
+
+.instagram1{
+  position: relative;
+width: 16px;
+height: 18px;
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #999999;
+bottom: 1px;
+left: 140px;
+}
+.block2{
+  position: relative;
+width: 352px;
+height: 412px;
+left: 380px;
+bottom: 270px;
+}
+.foto{
+  position: relative;
+  width: 170px;
+  height: 170px;
+left: 80px;
+top: 40px;
+}
+.name1{
+  position: relative;
+width: 160px;
+height: 22px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18.2px;
+line-height: 21px;
+left: 90px;
+bottom:  1px;
+color: #3C4858;
+}
+.job1{
+  position: relative;
+width: 55px;
+height: 16px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 13.65px;
+line-height: 16px;
+left:140px;
+bottom: 1px;
+color: #777777;
+}
+.text1{
+  position: relative;
+width: 352px;
+height: 124px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+bottom: 1px;
+color: #999999;
+}
+.twitter2{
+position: relative;
+width: 17px;
+height: 18px;
+
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+bottom:  28px;
+margin-left: 120px;
+color: #999999;
+}
+.LINKEDIN{
+  position: relative;
+width: 16px;
+height: 18px;
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #999999;
+bottom:  29px;
+left:30px
+}
+.block3{
+  position: relative;
+width: 352px;
+height: 412px;
+left:780px;
+bottom: 680px;
+}
+.foto1{
+  position: relative;
+width: 170px;
+height: 170px;
+top:45px;
+left:70px
+}
+.name2{
+  position: relative;
+width: 122px;
+height: 22px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18.2px;
+line-height: 21px;
+left:100px;
+bottom: 1px;
+
+color: #3C4858;
+}
+.job2{
+  position: relative;
+  width: 39px;
+  height: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.65px;
+  line-height: 16px;
+  left:140px;
+    bottom: 1px;
+
+  color: #777777;
+}
+.text2{
+  position: relative;
+  width: 352px;
+  height: 110px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  bottom: 2px;
+  color: #999999
+}
+.google{
+  position: relative;
+width: 24px;
+height: 18px;
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+bottom:  15px;
+left: 95px;
+color: #999999;
+}
+.youtube{
+position: relative;
+width: 18px;
+height: 18px;
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+bottom:  15px;
+left:120px;
+color: #999999;
+}
+.twitter3{
+position: relative;
+width: 17px;
+height: 18px;
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+bottom:  15px;
+left: 150px;
+color: #999999;
+}
+.work{
+  position: relative;
+width: 753px;
+height: 423px;
+left:200px;
+bottom: 450px;
+}
+.wwu{
+  position: relative;
+width: 209px;
+height: 43px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36.4px;
+line-height: 43px;
+/* identical to box height */
+left:250px;
+
+color: #3C4858;
+}
+.text3{
+  position: relative;
+width: 753px;
+height: 72px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 18.2px;
+line-height: 20px;
+text-align: center;
+color: #999999;
+}
+
+
+#username{
+  position: relative;
+width: 361px;
+height: 38px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #999999;
+}
+#Email{
+  position: relative;
+width: 361px;
+height: 38px;
+}
+#sms{
+  position: relative;
+width: 751px;
+height: 110px;
+}
+.sub{
+  position: relative;
+width: 148px;
+height: 41px;
+border: none;
+
+background: #9C27B0;
+color: white;
+left:270px;
+top: 25px;
+}
+
+.underline{
+  border: none;
+}
+.underline {
+  border-bottom: 2px solid #D2D2D2;
+}
+footer{
+  position: relative;
+width: 1122px;
+height: 17px;
+left:150px;
+}
+footer p{
+  position: relative;
+width: 228px;
+height: 17px;
+
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 11px;
+text-align: center;
+
+color: #000000;
+float: right;
+bottom: 80px;
+}
+#fot-menu a{
+  position: relative;
+width: 79px;
+height: 15px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+right: 50px;
+bottom:80px;
+color: #333333;
+
+margin-right: 20px;
+}
+.menu{
+  display: none;
+}
+/*for tablet */
+@media screen and (max-width: 768px){
+  *{
+          box-sizing: border-box;
+    }
+
+  .rectangle{
+    width: 768px;
+    height: 597px;
+  background:url('../img/BG.png');
+  background-repeat: no-repeat;
+   position: relative;
+  color: #C4C4C4;
+  }
+
+   .rectangle, .content{
+margin-left: 0;
+  }
+  .content{
+margin-left:   -1%;
+top:-60px;
+  }
+  #top-menu  {
+    position: relative;
+    width: 100%;
+height: 67px;
+left:0px;
+top: 0;
+background: rgba(0, 0, 0, 0.4);
+margin-right: 15px;
+}
+ .components,  .twitter, .facebook, .instagram{
+    margin: 0;
+left: 42%;
+}
+
+
+.twitter, .facebook, .instagram{
+  margin: 6px 6px;
+  top: 19px;
+  left: 400px;
+}
+
+ .download {
+left:375px;
+}
+
+
+.content{
+  position: relative;
+  width: 748px;
+  height: 3481px;
+  left: 2%;
+bottom: 2%;
+}
+.news{
+right: 290px;
+}
+.news1{
+font-size: 17.5px;
+  left: 15px;
+}
+.FIRST-FEATURE{
+
+left:  200px;
+  }
+  .SECOND-FEATURE{
+    top: 7%;
+    left: 200px;
+  }
+  .Third-Feature {
+  top: 9%;
+  left: 200px;
+}
+.TEAM{
+  width: 713px;
+height: 1279px;
+left:20px;
+top:500px;
+}
+h1{
+  width: 268px;
+height: 43px;
+left:230px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36.4px;
+line-height: 43px;
+color: #3C4858;
+}
+.block1{
+  width: 713px;
+  height: 370px;
+left:180px;
+}
+.block2{
+  width: 713px;
+  height: 370px;
+  top: 12%;
+  left: 180px;
+}
+.block3{
+  width: 713px;
+  height: 369px;
+  top: 14%;
+  left: 180px;
+}
+.header{
+
+  width: 716px;
+height: 302px;
+left:  30px;
+top:85px
+}
+
+h2{
+  width: 648px;
+height: 125px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 53.2px;
+line-height: 56px;
+color: #FFFFFF;
+}
+
+h4{
+  width: 716px;
+height: 72px;
+font-size: 19px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.sub{
+  top:50px;
+  left:40%;
+}
+
+.work{
+
+  width: 716px;
+height: 500px;
+  left:-5px;
+  padding-top: 110%;
+}
+.wwu{
+  width: 209px;
+height: 43px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36.4px;
+line-height: 43px;
+left: 250px;
+color: #3C4858;
+}
+.text3{
+  width: 709px;
+height: 72px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 18.2px;
+line-height: 21px;
+text-align: center;
+left:5px;
+color: #999999;
+}
+
+#username, #Email{
+  width: 716px;
+  height: 38px;
+  left: 3px;
+  margin: 10px;
+}
+#sms{
+  width: 716px;
+  height: 92px;
+left:3px;
+}
+footer{
+  width: 459px;
+height: 62px;
+left: 30px;
+bottom:  35px;
+ }
+ #fot-menu{
+   width: 459px;
+ height: 62px;
+top: 10px;
+left: 10px;
+ }
+ #fot-menu a {
+top: 5px;
+left: 15px;
+}
+ footer p{
+   margin-top: 65px;
+
+ }
+}
+@media only screen and (max-width : 425px){
+  *{
+          box-sizing: border-box;
+    }
+  body{
+  min-width: 425px;
+height: 4442px;
+
+background: #CCCCCC;
+  }
+  .rectangle{
+    width: 425px;
+height: 664px;
+  background:url('../img/HEADER.png');
+  background-repeat: no-repeat;
+   position: relative;
+  color: #C4C4C4;
+  }
+  .rectangle, .content{
+    margin-left:0;
+  }
+ .components,  .twitter, .facebook, .instagram, .dowload-icon, .download {
+    display: none;
+  }
+  .menu{
+    width: 22px;
+height: 14px;
+    display: block;
+    float: right;
+    margin-right:  35px;
+    margin-top:25px;
+  }
+  .logo{
+    width: 99px;
+height: 22px;
+top:25px;
+  }
+  #top-menu{
+    width: 425px;
+height: 62px;
+background: rgba(0, 0, 0, 0.4);
+  }
+  .header{
+    width: 383px;
+    height: 416px;
+  left:  30px;
+  top:85px
+  }
+
+  h2{
+    width: 345px;
+  height: 188px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 53.2px;
+  line-height: 55px;
+  color: #FFFFFF;
+
+  }
+  h4{
+    width: 383px;
+  height: 123px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.2px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+  }
+  .sub{
+    width: 179px;
+height: 54px;
+    top:50px;
+    left:40%;
+  }
+
+  .content{
+    position: relative;
+    width: 405px;
+height: 3718px;
+
+background: #FFFFFF;
+box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
+border-radius: 6px;
+
+  }
+  .news{
+    width: 277px;
+height: 43px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36.4px;
+line-height: 43px;
+color: #3C4858;
+margin-left: 370px;
+
+  }
+  .news1{
+    width: 368px;
+    height: 139px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17.5px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #999999;
+  }
+  .FIRST-FEATURE {
+    width: 328px;
+    height: 201px;
+  left:  40px;
+    }
+    .SECOND-FEATURE{
+      top: 7%;
+      left: 40px;
+    }
+    .Third-Feature {
+    top: 9%;
+    left: 40px;
+  }
+  .TEAM{
+    width: 373px;
+  height: 1402px;
+  left:20px;
+  top:500px;
+  }
+  h1{
+    width: 268px;
+height: 43px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36.4px;
+line-height: 43px;
+left: 50px;
+color: #3C4858;
+  }
+  .block1{
+    width: 372px;
+height: 411px;
+
+  left:0;
+  }
+  .block2{
+    width: 372px;
+    height: 411px;
+
+    top: 12%;
+    left:12px;
+  }
+  .block3{
+    width: 372px;
+  height: 411px;
+
+    top: 14%;
+    left: 12px;
+  }
+  .work{
+    position: relative;
+    width: 378px;
+    height: 548px;
+  left:1px;
+  bottom: 20px;
+  }
+  .wwu{
+    position: relative;
+    width: 209px;
+  height: 43px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36.4px;
+  line-height: 43px;
+  /* identical to box height */
+
+left:75px;
+  color: #3C4858;
+  }
+  .text3{
+    position: relative;
+    width: 378px;
+    height: 123px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18.2px;
+    line-height: 21px;
+    text-align: center;
+left:0px;
+    color: #999999;
+
+  }
+  #username{
+    position: relative;
+    width: 378px;
+  height: 38px;
+  left:-15px;
+  }
+  #Email{
+    position: relative;
+    width: 378px;
+  height: 38px;
+  left:-15px;
+  }
+  #sms{
+    position: relative;
+    width: 378px;
+  height: 80px;
+left: -5px;
+  }
+  .sub{
+    position: relative;
+  width: 148px;
+  height: 41px;
+  border: none;
+
+  background: #9C27B0;
+
+  left:110px;
+  top: 45px;
+  }
+
+  .underline{
+    border: none;
+
+  }
+  .underline {
+    border-bottom: 2px solid #D2D2D2;
+  }
+  footer{
+    width: 321px;
+  height: 63px;
+
+  left: 40px;
+  bottom:  35px;
+   }
+   #fot-menu{
+     width: 459px;
+   height: 62px;
+  top: 10px;
+  left: 10px;
+   }
+   #fot-menu a {
+  top: 5px;
+  left: 15px;
+  }
+   footer p{
+     margin-top: 65px;
+left: -50px;
+   }
+}
